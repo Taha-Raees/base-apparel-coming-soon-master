@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/base-apparel-coming-soon-master/static/css/main.cc60d68c.css",
+    "main.js": "/base-apparel-coming-soon-master/static/js/main.c850089e.js",
+    "static/media/hero-desktop.jpg": "/base-apparel-coming-soon-master/static/media/hero-desktop.659bc9a7221d265fe28f.jpg",
+    "static/media/logo.svg": "/base-apparel-coming-soon-master/static/media/logo.bfe35add16fb8c010b0231ce711541c6.svg",
+    "static/media/bg-pattern-desktop.svg": "/base-apparel-coming-soon-master/static/media/bg-pattern-desktop.964ebd4dd8014fd040d7.svg",
+    "index.html": "/base-apparel-coming-soon-master/index.html",
+    "static/media/icon-error.svg": "/base-apparel-coming-soon-master/static/media/icon-error.77009af74a9c193a398a6476b25aa1f3.svg",
+    "static/media/icon-arrow.svg": "/base-apparel-coming-soon-master/static/media/icon-arrow.4b3d2d93cd838720beda936cd05c7382.svg",
+    "main.cc60d68c.css.map": "/base-apparel-coming-soon-master/static/css/main.cc60d68c.css.map",
+    "main.c850089e.js.map": "/base-apparel-coming-soon-master/static/js/main.c850089e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc60d68c.css",
+    "static/js/main.c850089e.js"
+  ]
+}
