@@ -1,0 +1,127 @@
+ @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+
+.card{
+    display: flex;
+    
+
+
+    .left{
+        flex: 4;
+        background-image: url(./bg-pattern-desktop.svg);
+        min-height: 100vh;
+        background-size: cover;
+        
+        .logo{
+            margin-left: 10rem;
+            margin-top: 4rem;
+            margin-bottom: 6rem;
+        }
+        .title{
+            margin-left: 10rem;
+            h1{
+                font-family: 'Urbanist', sans-serif;
+                text-transform: uppercase;
+                font-size: 46px;
+                letter-spacing: 15px;
+                font-weight: 600;
+                span{
+                    color: hsl(0, 36%, 70%);
+                    font-weight: 300;
+                    font-size: 46px;
+                    letter-spacing: 15px;
+                    
+                }
+            }
+            p{
+                margin-top: 3vh;
+                font-family: 'Urbanist', sans-serif;
+                color: hsl(0, 36%, 70%);
+                margin-right: 12vw;
+                font-weight: 600;
+                line-height: 25px;
+                word-spacing: 2px;
+                margin-bottom: 3vh;
+            }
+            
+        }
+        .inp{
+            margin-left: 10rem;
+            position: relative;
+            input{
+                
+                border: 1px solid hsl(0, 36%, 70%);
+                border-radius: 25px;
+                padding: 2vh 12vw;
+                padding-left: 30px;
+                color:hsl(0, 36%, 70%) ;
+                
+                font-weight: 700;
+                &::placeholder {
+                    color: hsla(0, 36%, 70%, 0.503);
+                    text-align: start;
+                  }
+                  &:focus-visible {
+                    outline:  2px solid hsl(0, 36%, 70%);
+                    border: none;
+                    border-radius: 25px;
+                }
+              
+                  
+            }
+            label{
+                text-align: end;
+            }
+            
+            button{
+                display: flex;
+                justify-content: center;
+                width: 9vw;
+                background: linear-gradient(135deg,hsl(0, 80%, 86%),hsl(0, 74%, 74%));
+                padding: 2vh 25px;
+                border-radius: 50px;
+                border: 1px solid hsl(0, 74%, 74%);
+                position: absolute;
+                left: 40%;
+                transform: translateY(-97%);
+                cursor: pointer;
+             
+                &:hover{
+                    background: linear-gradient(135deg,hsl(0, 75%, 91%),hsl(0, 80%, 86%));
+                    border: 1px solid hsl(0, 80%, 86%);
+                }
+              
+            }
+            span{
+                color: red;
+               position: absolute;
+               left: 3%;
+               transform: translateY(230%);
+                
+                .errorIcon{
+                   position: absolute;
+                   transform: translateY(-200%);
+                   left: 190%;
+                   
+
+                    
+                    
+                    
+                }
+                
+            }
+            
+
+        }
+    }
+    .right{
+        flex: 3;
+        
+        background-image: url(./hero-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+      
+        
+        
+    }
+}
